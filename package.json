@@ -1,0 +1,25 @@
+{
+  "name": "coffee-rater",
+  "version": "1.0.0",
+  "description": "rate my coffee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "coffee"
+  ],
+  "author": "Jack Pascoe",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "install": "^0.11.0",
+    "mongodb": "^2.2.16",
+    "npm": "^5.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
